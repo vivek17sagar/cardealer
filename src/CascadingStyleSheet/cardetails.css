@@ -1,0 +1,39 @@
+
+
+.carImage{
+    /* border: 1px solid red; */
+    width: 280px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carImage>img{
+    width: 250px;
+}
+
+.carHeadLine{
+    display: flex;
+    align-items: center;
+}
+
+.CarDetails{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carHeadLine>h3,h4{
+    margin-left: 50px;
+}
+
+.modifier{
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.modifier:hover{
+    transform: scale(1.02);
+    
+}

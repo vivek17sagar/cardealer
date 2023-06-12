@@ -1,0 +1,21 @@
+
+.updateForm{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+    text-align: center;
+}
+.updateInput{
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    
+}
+
+.updateBtn{
+    padding: 10px 40px;
+    margin-top: 60px;
+    font-weight: 600;
+    border-radius: 5px;
+}

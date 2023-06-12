@@ -1,0 +1,21 @@
+
+
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+
+.option{
+    color: white;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.option:hover{
+    transform: scale(1.02);
+    color: blue;
+}
